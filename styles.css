@@ -1,9 +1,9 @@
 :root {
-  --light-cyan: hsl(193, 38%, 86%);
-  --neon-green: hsl(150, 100%, 66%);
-  --grayish-blue: hsl(217, 19%, 38%);
-  --dark-grayish-blue: hsl(217, 19%, 24%);
-  --dark-blue: hsl(218, 23%, 16%);
+  --light-cyan: rgb(206, 227, 233);
+  --neon-green: rgb(82, 255, 168);
+  --grayish-blue: rgb(78, 93, 115);
+  --dark-grayish-blue: rgb(50, 58, 73);
+  --dark-blue: rgb(31, 38, 50);
 }
 
 html {
@@ -21,14 +21,76 @@ body {
   margin: 0;
   font-family: 'Manrope', sans-serif;
   font-size: 1.75rem;
+  font-weight: 800;
 }
 
+.container {
+  background-color: var(--dark-blue);
+  color: var(--light-cyan);
 
-.attribution {
-  font-size: 11px;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.advice {
+  width: 40%;
+  background-color: var(--dark-grayish-blue);
+  border-radius: 10px;
+  padding: 1.25rem;
+}
+
+.advice__id {
+  color: var(--neon-green);
+  text-align: center;
+
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.advice__text {
   text-align: center;
 }
 
+.advice__line {
+  text-align: center;
+}
+
+.advice__btn {
+  text-align: center;
+  height: 2rem;
+}
+
+.advice__btn button {
+  border: none;
+  padding: 1.25rem;
+  border-radius: 50%;
+  background-color: var(--neon-green);
+  cursor: pointer;
+
+  position: relative;
+  top: 15px;
+}
+
+button:hover {
+  box-shadow: 0 0 1.5rem var(--neon-green);
+}
+
+.attribution {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: rgb(62, 82, 163);
+}
+
+.attribution a:hover {
+  color: rgb(86, 112, 216);
 }
