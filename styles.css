@@ -41,6 +41,8 @@ body {
   background-color: var(--dark-grayish-blue);
   border-radius: 10px;
   padding: 1.25rem;
+
+  min-width: 300px;
 }
 
 .advice__id {
@@ -57,13 +59,21 @@ body {
   text-align: center;
 }
 
-.advice__line {
+.advice__line--desktop {
   text-align: center;
+}
+
+.advice__line--desktop img {
+  width: 100%;
+}
+
+.advice__line--mobile {
+  display: none;
 }
 
 .advice__btn {
   text-align: center;
-  height: 2rem;
+  height: 2.5rem;
 }
 
 .advice__btn button {
@@ -74,7 +84,7 @@ body {
   cursor: pointer;
 
   position: relative;
-  top: 15px;
+  top: 25px;
 }
 
 button:hover {
@@ -82,7 +92,7 @@ button:hover {
 }
 
 .attribution {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-align: center;
   margin-top: 5rem;
 }
@@ -93,4 +103,60 @@ button:hover {
 
 .attribution a:hover {
   color: rgb(86, 112, 216);
+}
+
+@media(max-width: 1100px) {
+  body {
+    font-size: 1.5rem;
+  }
+
+  .advice__id {
+    font-size: .8rem;
+  }
+
+  blockquote {
+    margin: 1.5rem;
+  }
+
+  .advice__btn {
+    height: 2rem;
+  }
+
+  .advice__btn button {
+    padding: 1rem;
+  }
+}
+
+@media(max-width: 900px) {
+  body {
+    font-size: 1.25rem;
+  }
+
+  blockquote {
+    margin: 1rem;
+  }
+
+  .advice__line--desktop {
+    display: none;
+  }
+
+  .advice__line--mobile {
+    display: block;
+    text-align: center;
+  }
+
+  .advice__line--mobile img {
+    width: 100%;
+  }
+}
+
+@media(max-width: 750px) {
+  blockquote {
+    margin: 0;
+  }
+
+  .attribution {
+    font-size: 1rem;
+  }
+
 }
