@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db/hub/advice-generator-app-with-html-and-css-PXISmw2H3n)
+- [Solution URL](https://www.frontendmentor.io/solutions/advice-generator-app-with-html-and-css-PXISmw2H3n)
 - [Live Site URL](https://guisantosfr.github.io/advice-generator-app/)
 
 ## My process
