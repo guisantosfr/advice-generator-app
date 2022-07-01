@@ -26,14 +26,15 @@ Users should be able to:
   - Loading or refreshing the window
 
 ### Screenshots
-
-Desktop
-Mobile
+<p align="middle">
+  <img src="https://user-images.githubusercontent.com/32960040/176930000-6ee750b3-5681-4a0f-8d8e-9ba3c0b3c292.JPG">
+  <img src="https://user-images.githubusercontent.com/32960040/176930030-4db7f546-daeb-4f61-9446-a7883911494b.JPG">
+</p>
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db/hub/advice-generator-app-with-html-and-css-PXISmw2H3n)
+- [Live Site URL](https://guisantosfr.github.io/advice-generator-app/)
 
 ## My process
 
